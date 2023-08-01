@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(173, 178, 180);
+}
+header{
+    background-color: black;
+    min-height: 160px;
+    display: flex;
+}
+div{
+    display: inline-block;
+    background-color: white; 
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+#master{
+    background-color:black;
+    display: inline-flex;
+    width: 405px;
+    height: 120px;
+    padding: 10px 10px 20px 10px;
+    margin: auto;  
+    
+}
+.brazao{
+   background-color: rgb(217, 203, 0);
+   margin: 5px;
+  
+}
+.titulomaster{
+    background-color:black;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+h1{
+    color: rgb(250, 241, 241);
+    text-align: center;  
+}
+nav {
+    background-color: red;
+    padding: 6px;
+}
+nav>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;   
+}
+nav>a:hover{
+    background-color: rgb(49, 38, 38);
+    color: gray;  
+}
+main{}
