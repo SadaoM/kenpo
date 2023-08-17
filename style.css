@@ -5,7 +5,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(26, 26, 26);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.1em;
 }
@@ -32,44 +32,38 @@ header{
     padding: 0px 5px 10px 5px;
     
 }
-div{
+.container{
     display: inline
     width: 200px;
     height: 200px;
     margin: 0px;
 }
 
-h1{
-    color: green
-    padding: 10px;  
-    
-    
-    
-}
+
 nav {
     background-color: rgb(201, 60, 14);
-    padding: 1px 3px 3px 3px;
+    min-height: 18px;
+    padding: 9px;
     text-align: center;
     
+}
+.barralink{
+    
+    padding: 3px;
 }
 .barralink>a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 4px 9px 11px 9px;
+    padding: 10px 20px;
+    
     font-weight: lighter;  
-}
-.barralink{
-    width: 450px;
-    height: 10px;
-    background-color: transparent;
-    margin: auto;
-    padding: 8px;
     
 }
+
 .barralink>a:hover{
-    background-color: rgb(214, 214, 214);
-    color: black; 
-    border-radius: 5px 5px 0px 0px; 
+    background-color: rgb(26, 26, 26);
+    
+    border-radius: 5px 5px; 
 }
 main{
     min-width: 280px;
@@ -78,16 +72,17 @@ main{
     background-color: rgb(214, 214, 214);
     padding: 20px;
 }
-div.video{
+
+.video{
     
     /*background-color: aqua;*/ /*azul só para identificar o espaço que ocupa*/
     margin-bottom: 30px;
     margin-top: 15px;
     padding: 20px;
     position: relative;
-    padding-bottom: 30%; /*regula a altura da div.video*/
+    padding-bottom: 53.5%; /*regula a altura da div.video*/
 }
-div.video> iframe {
+.video> iframe {
     position: absolute;
     top: 5%; /*regula a distância do iframe ao topo da div.video*/
     left: 5%; /*regula a distância do iframe da esquerda da div.video, considerando o padding da div*/
@@ -102,7 +97,16 @@ article{
    
 
 }
+h1{
+    padding: 10px
+}
 p {
     padding: 10px;
     text-align: justify;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-style: oblique;
 }
