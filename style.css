@@ -50,6 +50,7 @@ nav {
     background-color: rgb(201, 60, 14);
     padding: 1px 3px 3px 3px;
     text-align: center;
+    
 }
 .barralink>a{
     color: rgb(255, 255, 255);
@@ -63,6 +64,7 @@ nav {
     background-color: transparent;
     margin: auto;
     padding: 8px;
+    
 }
 .barralink>a:hover{
     background-color: rgb(214, 214, 214);
