@@ -54,15 +54,15 @@ nav {
 .barralink>a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 3.5px 20px;
     
     font-weight: lighter;  
     
 }
 
 .barralink>a:hover{
-    background-color: rgb(26, 26, 26);
-    
+    background-color: rgb(226, 192, 0);
+    color: rgb(26, 26, 26);
     border-radius: 5px 5px; 
 }
 main{
